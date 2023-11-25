@@ -3,14 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FormsModule } from '@angular/forms';
+import { DirectivangModelComponent } from './directivas/components/directivang-model/directivang-model.component';
+import { DadoComponent } from './directivas/components/dado/dado.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DirectivangModelComponent,
+    DadoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
