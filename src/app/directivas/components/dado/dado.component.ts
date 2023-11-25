@@ -13,8 +13,8 @@ export class DadoComponent  implements OnInit{
   ngOnInit(): void {
     //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
     //Add 'implements OnInit' to the class.
+    
     this.valor = Math.trunc(Math.random()*6)+1
     
   }
-
 }

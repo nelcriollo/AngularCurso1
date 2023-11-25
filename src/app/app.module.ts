@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { DirectivangModelComponent } from './directivas/components/directivang-model/directivang-model.component';
 import { DadoComponent } from './directivas/components/dado/dado.component';
+import { Dado2Component } from './directivas/components/dado2/dado2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DirectivangModelComponent,
-    DadoComponent
+    DadoComponent,
+    Dado2Component
   ],
   imports: [
     BrowserModule,
