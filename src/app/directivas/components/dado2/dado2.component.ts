@@ -6,11 +6,13 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./dado2.component.scss']
 })
 export class Dado2Component implements OnInit {
-@Input()
-valor: string ='';
+  @Input()
+  valor: string = '';
 
   ngOnInit(): void {
     throw new Error('Method not implemented.');
   }
+
+
 
 }

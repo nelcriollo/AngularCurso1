@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dado.component.scss']
 })
 export class DadoComponent  implements OnInit{
-  valor: number = 1;
+  valordado: number = 1;
 
   constructor(){}
 
@@ -14,7 +14,7 @@ export class DadoComponent  implements OnInit{
     //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
     //Add 'implements OnInit' to the class.
     
-    this.valor = Math.trunc(Math.random()*6)+1
+    this.valordado = Math.trunc(Math.random() * 6 ) + 1
     
   }
 }
