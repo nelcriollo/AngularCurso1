@@ -47,6 +47,8 @@ export class AppComponent {
 
   //7 - Directiva ngModel
   
+
+  //9 - Componentes: pasar datos de la componente padre a la componente hija
   valor1: number;
   valor2: number;
   valor3: number
@@ -72,6 +74,12 @@ export class AppComponent {
     } else {
       this.resultado = 'Perdio!!';
     }
+  }
+
+  mensaje = '';
+
+  actualizar(tiempo: number){
+    this.mensaje = tiempo + '(se actualiza cada 10 segundos)';
   }
   
 }
